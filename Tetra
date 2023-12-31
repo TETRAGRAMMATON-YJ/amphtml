@@ -1,0 +1,15 @@
+[flake8]
+exclude =
+    */migrations/*
+    kitsune/settings*
+    kitsune/sumo/db_strings.py
+    docs/*
+    scripts/*
+    tests/*
+    k8s/*
+    wsgi/*
+max-line-length = 99
+ignore =
+    W503
+    E231
+    E20399
